@@ -8,7 +8,7 @@ export const NavBar: React.FC = () => {
         <a href="#" className="brand-logo">React + TS</a>
         <ul className="right hide-on-med-and-down">
           <li><a href="/">список дел</a></li>
-          <li><a href="/">информация</a></li>
+          <li><a href="/info">информация</a></li>
         </ul>
       </div>
     </nav>
