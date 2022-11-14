@@ -1,8 +1,0 @@
-{
-    "typescript.format.insertSpaceAfterTypeAssertion": true,
-    "editor.formatOnType": false,
-    "editor.formatOnSave": true,
-    "prettier.trailingComma": "all",
-    "prettier.singleQuote": true,
-    "prettier.printWidth": 100
-}

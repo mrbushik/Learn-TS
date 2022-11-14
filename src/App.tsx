@@ -1,26 +1,19 @@
-import React from 'react';
-import { ToDoPage } from './Components/pages/ToDoPage';
+import React from "react";
+import { ToDoPage } from "./Components/pages/ToDoPage";
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Link,
-} from "react-router-dom";
-import InfoPage from './Components/pages/infoPage';
+import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
+import InfoPage from "./Components/pages/infoPage";
 
 const App: React.FC = () => {
-
-
   const router = createBrowserRouter([
     {
       path: "/",
-      element: (
-        <ToDoPage />
-      ),
+      element: <ToDoPage />,
     },
+
     {
       path: "info",
-      element: <InfoPage />
+      element: <InfoPage />,
     },
 
     // return (
@@ -34,9 +27,7 @@ const App: React.FC = () => {
     // );
     // }
   ]);
-  return (
-    <RouterProvider router={router} />
-  )
-}
+  return <RouterProvider router={router} />;
+};
 
 export default App;
